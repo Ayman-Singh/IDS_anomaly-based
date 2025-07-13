@@ -1,0 +1,2 @@
+accuracy,precision,recall,f1_score,cv_accuracy_mean,cv_accuracy_std,dataset_rows,model_type,features_count,run_date,mode,timestamp
+0.9963566666666667,0.9951363731001457,0.9957583333333333,0.9954472560658127,0.9961099973992479,0.0001839009370435062,2585121,binary,20,2025-07-12,balanced,20250712_175440

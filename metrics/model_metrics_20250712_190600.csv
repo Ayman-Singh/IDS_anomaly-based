@@ -1,0 +1,2 @@
+accuracy,precision,recall,f1_score,timestamp,model,implementation,training_time,model_size,features_used
+0.9960202278209941,0.9997627351887441,0.9857991764926072,0.9927318561449388,20250712_190600,Random Forest (from scratch),Custom implementation,893.185802,20,30
