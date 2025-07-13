@@ -45,11 +45,12 @@ The Random Forest algorithm is implemented from scratch without relying on exter
 
 ### Performance Metrics
 - **Overall Accuracy**: 98.71%
-- **Training Time**: 15 hours (custom implementation)
+- **Training Time**: 1.87 hours (custom implementation)
 - **Features Used**: 49 engineered features
 - **Classes**: 7 attack types + benign
+- **Model Size**: 50 trees in ensemble
 
-### Per-Class Performance
+### Per-Class Performance (Latest Training)
 | Attack Type | Precision | Recall | F1-Score | Support |
 |-------------|-----------|--------|----------|---------|
 | BENIGN      | 99.08%    | 98.39% | 98.73%   | 113,766 |
@@ -65,6 +66,8 @@ The Random Forest algorithm is implemented from scratch without relying on exter
 - Proper multiclass classification for 7 attack types
 - Production-ready code with comprehensive logging
 - No data leakage through proper train-test splitting
+- Optimized training time (1.87 hours vs 15 hours)
+- Comprehensive model evaluation and visualization
 
 ## Project Structure
 
@@ -72,15 +75,18 @@ The Random Forest algorithm is implemented from scratch without relying on exter
 IDS_anomaly-based/
 ├── random_forest_evaluation.py    # Main implementation
 ├── models/                        # Trained models
-│   └── intrusion_detector_rf_20250713_102856.joblib
+│   └── intrusion_detector_rf_20250713_132001.joblib
 ├── metrics/                       # Performance metrics
-│   ├── model_metrics_20250713_102856.csv
-│   └── class_metrics_20250713_102856.csv
+│   ├── model_metrics_20250713_132001.csv
+│   ├── class_metrics_20250713_132001.csv
+│   └── model_metrics_history.csv
 ├── visualizations/                # Performance plots
 │   ├── confusion_matrix.png
 │   ├── roc_curve.png
 │   ├── feature_importance.png
-│   └── correlation_matrix.png
+│   ├── correlation_matrix.png
+│   └── optimized_confusion_matrix.png
+├── intrusion_detection.log        # Training logs
 └── README.md
 ```
 

@@ -1,0 +1,512 @@
+2025-07-12 18:25:21,191 - INFO - ================================================================================
+2025-07-12 18:25:21,191 - INFO - Network Intrusion Detection with Random Forest (From Scratch)
+2025-07-12 18:25:21,191 - INFO - Production-ready implementation for MAANG companies
+2025-07-12 18:25:21,191 - INFO - ================================================================================
+2025-07-12 18:25:21,191 - INFO - STEP 1: Loading and preprocessing data...
+2025-07-12 18:25:21,191 - INFO - Starting data loading and preprocessing
+2025-07-12 18:25:21,191 - INFO - Processing cicids-2017/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2025-07-12 18:25:25,916 - INFO - Processing cicids-2017/Friday-WorkingHours-Morning.pcap_ISCX.csv
+2025-07-12 18:25:28,866 - INFO - Processing cicids-2017/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2025-07-12 18:25:32,492 - INFO - Processing cicids-2017/Monday-WorkingHours.pcap_ISCX.csv
+2025-07-12 18:25:43,649 - INFO - Processing cicids-2017/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2025-07-12 18:25:47,866 - INFO - Processing cicids-2017/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2025-07-12 18:25:51,015 - INFO - Processing cicids-2017/Tuesday-WorkingHours.pcap_ISCX.csv
+2025-07-12 18:26:02,111 - INFO - Processing cicids-2017/Wednesday-workingHours.pcap_ISCX.csv
+2025-07-12 18:26:21,611 - INFO - Final dataset shape: (2830743, 41)
+2025-07-12 18:26:21,611 - INFO - Total samples processed: 2830743
+2025-07-12 18:26:21,623 - INFO - Attack ratio: 0.1970 (19.70%)
+2025-07-12 18:26:21,627 - INFO - STEP 2: Training Random Forest model...
+2025-07-12 18:26:21,628 - INFO - Starting model training
+2025-07-12 18:26:38,440 - INFO - Scaling features (training data only)
+2025-07-12 18:26:55,038 - INFO - Training Random Forest from scratch
+2025-07-12 18:27:11,464 - INFO - Training Random Forest with 50 trees
+2025-07-12 18:27:11,474 - INFO - Training tree 1/50
+2025-07-12 18:29:16,234 - INFO - ================================================================================
+2025-07-12 18:29:16,235 - INFO - Network Intrusion Detection with Random Forest (From Scratch)
+2025-07-12 18:29:16,235 - INFO - Production-ready implementation for MAANG companies
+2025-07-12 18:29:16,235 - INFO - ================================================================================
+2025-07-12 18:29:16,235 - INFO - STEP 1: Loading and preprocessing data...
+2025-07-12 18:29:16,235 - INFO - Starting data loading and preprocessing
+2025-07-12 18:29:16,236 - INFO - Processing cicids-2017/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2025-07-12 18:29:20,079 - INFO - Processing cicids-2017/Friday-WorkingHours-Morning.pcap_ISCX.csv
+2025-07-12 18:29:22,454 - INFO - Processing cicids-2017/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2025-07-12 18:29:25,597 - INFO - Processing cicids-2017/Monday-WorkingHours.pcap_ISCX.csv
+2025-07-12 18:29:32,404 - INFO - Processing cicids-2017/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2025-07-12 18:29:36,092 - INFO - Processing cicids-2017/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2025-07-12 18:29:40,795 - INFO - Processing cicids-2017/Tuesday-WorkingHours.pcap_ISCX.csv
+2025-07-12 18:29:45,998 - INFO - Processing cicids-2017/Wednesday-workingHours.pcap_ISCX.csv
+2025-07-12 18:29:58,684 - INFO - Final dataset shape: (2830743, 41)
+2025-07-12 18:29:58,685 - INFO - Total samples processed: 2830743
+2025-07-12 18:29:58,691 - INFO - Attack ratio: 0.1970 (19.70%)
+2025-07-12 18:29:58,696 - INFO - STEP 2: Training Random Forest model...
+2025-07-12 18:29:58,696 - INFO - Starting model training
+2025-07-12 18:30:14,179 - INFO - Scaling features (training data only)
+2025-07-12 18:30:28,174 - INFO - Training Random Forest from scratch
+2025-07-12 18:30:39,188 - INFO - Training Random Forest with 50 trees
+2025-07-12 18:30:39,198 - INFO - Training tree 1/50
+2025-07-12 18:30:54,481 - INFO - Training decision tree with 1981520 samples and 6 features
+2025-07-12 18:50:42,751 - INFO - ================================================================================
+2025-07-12 18:50:42,751 - INFO - Network Intrusion Detection with Random Forest (From Scratch)
+2025-07-12 18:50:42,751 - INFO - Production-ready implementation for MAANG companies
+2025-07-12 18:50:42,751 - INFO - ================================================================================
+2025-07-12 18:50:42,751 - INFO - STEP 1: Loading and preprocessing data...
+2025-07-12 18:50:42,751 - INFO - Starting data loading and preprocessing
+2025-07-12 18:50:42,751 - INFO - Processing cicids-2017/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2025-07-12 18:50:44,553 - INFO - Processing cicids-2017/Friday-WorkingHours-Morning.pcap_ISCX.csv
+2025-07-12 18:50:45,868 - INFO - Processing cicids-2017/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2025-07-12 18:50:46,555 - INFO - Reached sample limit of 500K for faster training
+2025-07-12 18:50:46,640 - INFO - Final dataset shape: (516778, 31)
+2025-07-12 18:50:46,640 - INFO - Total samples processed: 516778
+2025-07-12 18:50:46,641 - INFO - Attack ratio: 0.2757 (27.57%)
+2025-07-12 18:50:46,642 - INFO - STEP 2: Training Random Forest model...
+2025-07-12 18:50:46,643 - INFO - Starting model training
+2025-07-12 18:50:47,601 - INFO - Scaling features (training data only)
+2025-07-12 18:50:48,069 - INFO - Training Random Forest from scratch
+2025-07-12 18:50:48,110 - INFO - Training Random Forest with 20 trees
+2025-07-12 18:50:48,111 - INFO - Training tree 1/20
+2025-07-12 18:50:48,645 - INFO - Training decision tree with 361744 samples and 5 features
+2025-07-12 18:51:27,545 - INFO - Training decision tree with 361744 samples and 5 features
+2025-07-12 18:52:07,286 - INFO - Training decision tree with 361744 samples and 5 features
+2025-07-12 18:52:35,818 - INFO - Training decision tree with 361744 samples and 5 features
+2025-07-12 18:53:24,437 - INFO - Training decision tree with 361744 samples and 5 features
+2025-07-12 18:54:06,963 - INFO - Training decision tree with 361744 samples and 5 features
+2025-07-12 18:54:54,768 - INFO - Training decision tree with 361744 samples and 5 features
+2025-07-12 18:55:36,639 - INFO - Training decision tree with 361744 samples and 5 features
+2025-07-12 18:56:13,301 - INFO - Training decision tree with 361744 samples and 5 features
+2025-07-12 18:56:50,088 - INFO - Training decision tree with 361744 samples and 5 features
+2025-07-12 18:57:22,084 - INFO - Training tree 11/20
+2025-07-12 18:57:22,322 - INFO - Training decision tree with 361744 samples and 5 features
+2025-07-12 18:57:53,646 - INFO - Training decision tree with 361744 samples and 5 features
+2025-07-12 18:58:34,060 - INFO - Training decision tree with 361744 samples and 5 features
+2025-07-12 18:59:18,804 - INFO - Training decision tree with 361744 samples and 5 features
+2025-07-12 19:00:17,708 - INFO - Training decision tree with 361744 samples and 5 features
+2025-07-12 19:01:11,761 - INFO - Training decision tree with 361744 samples and 5 features
+2025-07-12 19:02:05,666 - INFO - Training decision tree with 361744 samples and 5 features
+2025-07-12 19:02:48,710 - INFO - Training decision tree with 361744 samples and 5 features
+2025-07-12 19:03:38,435 - INFO - Training decision tree with 361744 samples and 5 features
+2025-07-12 19:04:49,552 - INFO - Training decision tree with 361744 samples and 5 features
+2025-07-12 19:05:39,824 - INFO - Random Forest training completed
+2025-07-12 19:05:39,829 - INFO - Training completed in 893.19 seconds
+2025-07-12 19:05:39,829 - INFO - STEP 3: Evaluating model...
+2025-07-12 19:05:39,830 - INFO - Evaluating model performance
+2025-07-12 19:05:59,977 - INFO - Model Performance:
+2025-07-12 19:05:59,978 - INFO -   Accuracy: 0.9960
+2025-07-12 19:05:59,978 - INFO -   Precision: 0.9998
+2025-07-12 19:05:59,978 - INFO -   Recall: 0.9858
+2025-07-12 19:05:59,978 - INFO -   F1 Score: 0.9927
+2025-07-12 19:05:59,979 - INFO - Confusion Matrix:
+[[112280     10]
+ [   607  42137]]
+2025-07-12 19:05:59,980 - INFO - Test set - Normal: 112290, Attack: 42744
+2025-07-12 19:06:00,012 - INFO - Baseline (most frequent): 0.7243
+2025-07-12 19:06:00,012 - INFO - Improvement: 0.2717
+2025-07-12 19:06:00,012 - INFO - STEP 4: Saving results...
+2025-07-12 19:06:00,018 - INFO - Metrics saved to metrics/model_metrics_20250712_190600.csv
+2025-07-12 19:06:00,018 - INFO - Saving model to models/intrusion_detector_rf_20250712_190600.joblib
+2025-07-12 19:06:00,169 - INFO - Model saved successfully to models/intrusion_detector_rf_20250712_190600.joblib
+2025-07-12 19:06:00,170 - INFO - Training complete!
+2025-07-12 19:06:00,170 - INFO - Results saved with timestamp: 20250712_190600
+2025-07-12 19:22:52,709 - INFO - ================================================================================
+2025-07-12 19:22:52,709 - INFO - Multiclass Network Intrusion Detection with Random Forest (From Scratch)
+2025-07-12 19:22:52,710 - INFO - Production-ready implementation based on research paper methodology
+2025-07-12 19:22:52,710 - INFO - ================================================================================
+2025-07-12 19:22:52,710 - INFO - STEP 1: Loading and preprocessing data...
+2025-07-12 19:22:52,710 - INFO - Starting data loading and preprocessing using research paper methodology
+2025-07-12 19:22:52,711 - INFO - Processing cicids-2017/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2025-07-12 19:22:55,439 - INFO - Processing cicids-2017/Friday-WorkingHours-Morning.pcap_ISCX.csv
+2025-07-12 19:22:57,100 - INFO - Processing cicids-2017/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2025-07-12 19:23:00,560 - INFO - Processing cicids-2017/Monday-WorkingHours.pcap_ISCX.csv
+2025-07-12 19:23:08,058 - INFO - Processing cicids-2017/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2025-07-12 19:23:11,338 - INFO - Processing cicids-2017/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2025-07-12 19:23:14,528 - INFO - Processing cicids-2017/Tuesday-WorkingHours.pcap_ISCX.csv
+2025-07-12 19:23:26,445 - INFO - Processing cicids-2017/Wednesday-workingHours.pcap_ISCX.csv
+2025-07-12 19:24:12,954 - INFO - Initial dataset shape: (2830743, 79)
+2025-07-12 19:24:12,961 - INFO - Total samples processed: 2830743
+2025-07-12 19:24:13,153 - INFO - STEP 2: Applying research paper preprocessing...
+2025-07-12 19:24:13,154 - INFO - Applying research paper preprocessing methodology
+2025-07-12 19:24:13,154 - INFO - Step 1: Handling missing and infinite values
+2025-07-12 19:24:13,928 - INFO - Step 2: Dropping constant columns
+2025-07-12 19:24:26,592 - INFO - Dropped constant column: Bwd PSH Flags
+2025-07-12 19:25:20,829 - INFO - Dropped constant column: Bwd URG Flags
+2025-07-12 19:25:39,911 - INFO - Dropped constant column: Fwd Avg Bytes/Bulk
+2025-07-12 19:25:51,947 - INFO - Dropped constant column: Fwd Avg Packets/Bulk
+2025-07-12 19:25:57,191 - INFO - Dropped constant column: Fwd Avg Bulk Rate
+2025-07-12 19:26:01,698 - INFO - Dropped constant column: Bwd Avg Bytes/Bulk
+2025-07-12 19:26:03,071 - INFO - Dropped constant column: Bwd Avg Packets/Bulk
+2025-07-12 19:26:07,906 - INFO - Dropped constant column: Bwd Avg Bulk Rate
+2025-07-12 19:26:07,906 - INFO - Step 3: Dropping highly correlated features
+2025-07-12 19:26:09,284 - INFO - Dropped correlated column: Total Backward Packets
+2025-07-12 19:26:12,234 - INFO - Dropped correlated column: Total Length of Bwd Packets
+2025-07-12 19:26:13,190 - INFO - Dropped correlated column: Fwd Packet Length Std
+2025-07-12 19:26:15,774 - INFO - Dropped correlated column: Bwd Packet Length Mean
+2025-07-12 19:26:16,732 - INFO - Dropped correlated column: Bwd Packet Length Std
+2025-07-12 19:26:19,902 - INFO - Dropped correlated column: Fwd IAT Total
+2025-07-12 19:26:20,904 - INFO - Dropped correlated column: Fwd IAT Max
+2025-07-12 19:26:23,257 - INFO - Dropped correlated column: Fwd Packets/s
+2025-07-12 19:26:24,118 - INFO - Dropped correlated column: Packet Length Std
+2025-07-12 19:26:26,080 - INFO - Dropped correlated column: SYN Flag Count
+2025-07-12 19:26:26,963 - INFO - Dropped correlated column: CWE Flag Count
+2025-07-12 19:26:28,645 - INFO - Dropped correlated column: ECE Flag Count
+2025-07-12 19:26:29,567 - INFO - Dropped correlated column: Average Packet Size
+2025-07-12 19:26:30,945 - INFO - Dropped correlated column: Avg Fwd Segment Size
+2025-07-12 19:26:31,940 - INFO - Dropped correlated column: Avg Bwd Segment Size
+2025-07-12 19:26:33,236 - INFO - Dropped correlated column: Fwd Header Length.1
+2025-07-12 19:26:34,052 - INFO - Dropped correlated column: Subflow Fwd Packets
+2025-07-12 19:26:34,985 - INFO - Dropped correlated column: Subflow Fwd Bytes
+2025-07-12 19:26:35,649 - INFO - Dropped correlated column: Subflow Bwd Packets
+2025-07-12 19:26:36,435 - INFO - Dropped correlated column: Subflow Bwd Bytes
+2025-07-12 19:26:37,017 - INFO - Dropped correlated column: Idle Mean
+2025-07-12 19:26:37,865 - INFO - Dropped correlated column: Idle Max
+2025-07-12 19:26:38,551 - INFO - Dropped correlated column: Idle Min
+2025-07-12 19:26:38,551 - INFO - Step 4: Applying multiclass labeling
+2025-07-12 19:26:41,293 - INFO - Step 5: Applying data sampling
+2025-07-12 19:26:59,735 - INFO - Final dataset shape after preprocessing: (1124250, 50)
+2025-07-12 19:26:59,737 - INFO - Class distribution:
+2025-07-12 19:27:00,172 - INFO -   BENIGN: 568831
+2025-07-12 19:27:00,195 - INFO -   DDoS: 128027
+2025-07-12 19:27:00,274 - INFO -   DoS: 252661
+2025-07-12 19:27:00,306 - INFO -   PortScan: 158930
+2025-07-12 19:27:00,311 - INFO -   Bot: 1966
+2025-07-12 19:27:00,314 - INFO -   WebAttack: 0
+2025-07-12 19:27:00,326 - INFO -   Patator: 13835
+2025-07-12 19:27:01,297 - INFO - STEP 3: Training Random Forest model...
+2025-07-12 19:27:01,297 - INFO - Starting model training
+2025-07-12 19:27:06,452 - INFO - Scaling features (training data only)
+2025-07-12 19:27:08,407 - INFO - Training Random Forest from scratch
+2025-07-12 19:27:09,024 - INFO - Training Random Forest with 50 trees
+2025-07-12 19:27:09,025 - INFO - Training tree 1/50
+2025-07-12 19:27:11,263 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 19:32:16,611 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 19:36:37,304 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 19:40:00,316 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 19:43:01,259 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 19:45:55,689 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 19:48:43,587 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 19:49:59,403 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 19:51:09,883 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 19:52:41,763 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 19:53:44,641 - INFO - Training tree 11/50
+2025-07-12 19:53:45,153 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 19:55:29,967 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 19:56:31,698 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 19:57:35,811 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 19:58:19,491 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 19:59:53,091 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 20:01:42,563 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 20:03:08,641 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 20:04:38,523 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 20:06:01,444 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 20:07:12,444 - INFO - Training tree 21/50
+2025-07-12 20:07:13,018 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 20:09:04,641 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 20:10:05,233 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 20:11:29,640 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-12 20:12:37,672 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 09:23:41,231 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 09:25:50,697 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 09:27:31,220 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 09:29:17,962 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 09:31:26,093 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 09:33:57,714 - INFO - Training tree 31/50
+2025-07-13 09:33:59,031 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 09:35:45,449 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 09:38:24,129 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 09:41:15,844 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 09:46:06,722 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 09:49:38,003 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 09:53:13,897 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 09:55:39,496 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 09:58:17,067 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 10:01:04,069 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 10:03:59,284 - INFO - Training tree 41/50
+2025-07-13 10:04:01,422 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 10:07:01,364 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 10:08:53,262 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 10:11:58,999 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 10:14:53,183 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 10:18:05,727 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 10:18:55,492 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 10:22:40,855 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 10:24:11,849 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 10:26:47,709 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 10:27:55,614 - INFO - Random Forest training completed
+2025-07-13 10:27:55,723 - INFO - Training completed in 54054.42 seconds
+2025-07-13 10:27:55,727 - INFO - STEP 4: Evaluating model...
+2025-07-13 10:27:55,727 - INFO - Evaluating model performance
+2025-07-13 10:28:56,572 - INFO - Model Performance:
+2025-07-13 10:28:56,573 - INFO -   Overall Accuracy: 0.9871
+2025-07-13 10:28:56,573 - INFO -   BENIGN:
+2025-07-13 10:28:56,573 - INFO -     Precision: 0.9908
+2025-07-13 10:28:56,573 - INFO -     Recall: 0.9839
+2025-07-13 10:28:56,573 - INFO -     F1 Score: 0.9873
+2025-07-13 10:28:56,574 - INFO -     Support: 113766
+2025-07-13 10:28:56,574 - INFO -   DDoS:
+2025-07-13 10:28:56,574 - INFO -     Precision: 1.0000
+2025-07-13 10:28:56,574 - INFO -     Recall: 0.9977
+2025-07-13 10:28:56,574 - INFO -     F1 Score: 0.9988
+2025-07-13 10:28:56,574 - INFO -     Support: 25606
+2025-07-13 10:28:56,574 - INFO -   DoS:
+2025-07-13 10:28:56,574 - INFO -     Precision: 0.9661
+2025-07-13 10:28:56,574 - INFO -     Recall: 0.9953
+2025-07-13 10:28:56,574 - INFO -     F1 Score: 0.9805
+2025-07-13 10:28:56,575 - INFO -     Support: 50532
+2025-07-13 10:28:56,575 - INFO -   PortScan:
+2025-07-13 10:28:56,575 - INFO -     Precision: 0.9984
+2025-07-13 10:28:56,575 - INFO -     Recall: 0.9989
+2025-07-13 10:28:56,575 - INFO -     F1 Score: 0.9987
+2025-07-13 10:28:56,575 - INFO -     Support: 31786
+2025-07-13 10:28:56,575 - INFO -   Bot:
+2025-07-13 10:28:56,575 - INFO -     Precision: 0.8556
+2025-07-13 10:28:56,575 - INFO -     Recall: 0.6183
+2025-07-13 10:28:56,575 - INFO -     F1 Score: 0.7179
+2025-07-13 10:28:56,576 - INFO -     Support: 393
+2025-07-13 10:28:56,576 - INFO -   WebAttack:
+2025-07-13 10:28:56,576 - INFO -     Precision: 0.0000
+2025-07-13 10:28:56,576 - INFO -     Recall: 0.0000
+2025-07-13 10:28:56,576 - INFO -     F1 Score: 0.0000
+2025-07-13 10:28:56,576 - INFO -     Support: 0
+2025-07-13 10:28:56,576 - INFO -   Patator:
+2025-07-13 10:28:56,577 - INFO -     Precision: 1.0000
+2025-07-13 10:28:56,577 - INFO -     Recall: 0.7879
+2025-07-13 10:28:56,577 - INFO -     F1 Score: 0.8813
+2025-07-13 10:28:56,577 - INFO -     Support: 2767
+2025-07-13 10:28:56,738 - INFO - Confusion Matrix:
+[[111929      1   1744     51     41      0]
+ [    58  25548      0      0      0      0]
+ [   237      0  50295      0      0      0]
+ [    15      0     19  31752      0      0]
+ [   150      0      0      0    243      0]
+ [   584      0      3      0      0   2180]]
+2025-07-13 10:28:56,794 - INFO - Baseline (most frequent): 0.5060
+2025-07-13 10:28:56,794 - INFO - Improvement: 0.4811
+2025-07-13 10:28:56,794 - INFO - STEP 5: Saving results...
+2025-07-13 10:28:56,828 - INFO - Metrics saved to metrics/model_metrics_20250713_102856.csv
+2025-07-13 10:28:56,841 - INFO - Class metrics saved to metrics/class_metrics_20250713_102856.csv
+2025-07-13 10:28:56,841 - INFO - Saving model to models/intrusion_detector_rf_20250713_102856.joblib
+2025-07-13 10:28:59,201 - INFO - Model saved successfully to models/intrusion_detector_rf_20250713_102856.joblib
+2025-07-13 10:28:59,202 - INFO - Training complete!
+2025-07-13 10:28:59,202 - INFO - Results saved with timestamp: 20250713_102856
+2025-07-13 10:39:20,600 - INFO - ================================================================================
+2025-07-13 10:39:20,601 - INFO - Multiclass Network Intrusion Detection with Random Forest (From Scratch)
+2025-07-13 10:39:20,601 - INFO - Production-ready implementation based on research paper methodology
+2025-07-13 10:39:20,601 - INFO - ================================================================================
+2025-07-13 10:39:20,601 - INFO - STEP 1: Loading and preprocessing data...
+2025-07-13 10:39:20,601 - INFO - Starting data loading and preprocessing using research paper methodology
+2025-07-13 10:39:20,601 - INFO - Processing cicids-2017/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2025-07-13 10:39:22,096 - INFO - Processing cicids-2017/Friday-WorkingHours-Morning.pcap_ISCX.csv
+2025-07-13 10:39:23,418 - INFO - Processing cicids-2017/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2025-07-13 10:39:25,233 - INFO - Processing cicids-2017/Monday-WorkingHours.pcap_ISCX.csv
+2025-07-13 10:39:30,155 - INFO - Processing cicids-2017/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2025-07-13 10:39:34,654 - INFO - Processing cicids-2017/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2025-07-13 10:39:37,200 - INFO - Processing cicids-2017/Tuesday-WorkingHours.pcap_ISCX.csv
+2025-07-13 10:39:42,709 - INFO - Processing cicids-2017/Wednesday-workingHours.pcap_ISCX.csv
+2025-07-13 10:40:09,716 - INFO - Initial dataset shape: (2830743, 79)
+2025-07-13 10:40:09,948 - INFO - Total samples processed: 2830743
+2025-07-13 10:40:10,281 - INFO - STEP 2: Applying research paper preprocessing...
+2025-07-13 10:40:10,284 - INFO - Applying research paper preprocessing methodology
+2025-07-13 10:40:10,285 - INFO - Step 1: Handling missing and infinite values
+2025-07-13 10:40:10,805 - INFO - Step 2: Dropping constant columns
+2025-07-13 10:40:39,970 - INFO - Dropped constant column: Bwd PSH Flags
+2025-07-13 11:23:06,688 - INFO - ================================================================================
+2025-07-13 11:23:06,689 - INFO - Multiclass Network Intrusion Detection with Random Forest (From Scratch)
+2025-07-13 11:23:06,689 - INFO - Production-ready implementation based on research paper methodology
+2025-07-13 11:23:06,689 - INFO - ================================================================================
+2025-07-13 11:23:06,689 - INFO - STEP 1: Loading and preprocessing data...
+2025-07-13 11:23:06,689 - INFO - Starting data loading and preprocessing using research paper methodology
+2025-07-13 11:23:06,689 - INFO - Processing cicids-2017/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2025-07-13 11:23:08,069 - INFO - Processing cicids-2017/Friday-WorkingHours-Morning.pcap_ISCX.csv
+2025-07-13 11:23:09,122 - INFO - Processing cicids-2017/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2025-07-13 11:23:10,765 - INFO - Processing cicids-2017/Monday-WorkingHours.pcap_ISCX.csv
+2025-07-13 11:23:14,765 - INFO - Processing cicids-2017/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2025-07-13 11:23:16,783 - INFO - Processing cicids-2017/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2025-07-13 11:23:17,969 - INFO - Processing cicids-2017/Tuesday-WorkingHours.pcap_ISCX.csv
+2025-07-13 11:23:21,391 - INFO - Processing cicids-2017/Wednesday-workingHours.pcap_ISCX.csv
+2025-07-13 11:23:41,977 - INFO - Initial dataset shape: (2830743, 79)
+2025-07-13 11:23:41,983 - INFO - Total samples processed: 2830743
+2025-07-13 11:23:42,057 - INFO - STEP 2: Applying research paper preprocessing...
+2025-07-13 11:23:42,058 - INFO - Applying research paper preprocessing methodology
+2025-07-13 11:23:42,058 - INFO - Step 1: Handling missing and infinite values
+2025-07-13 11:23:42,601 - INFO - Step 2: Dropping constant columns
+2025-07-13 11:23:52,703 - INFO - Dropped constant column: Bwd PSH Flags
+2025-07-13 11:24:44,667 - INFO - Dropped constant column: Bwd URG Flags
+2025-07-13 11:25:07,425 - INFO - Dropped constant column: Fwd Avg Bytes/Bulk
+2025-07-13 11:25:49,553 - INFO - ================================================================================
+2025-07-13 11:25:49,553 - INFO - Multiclass Network Intrusion Detection with Random Forest (From Scratch)
+2025-07-13 11:25:49,553 - INFO - Production-ready implementation based on research paper methodology
+2025-07-13 11:25:49,553 - INFO - ================================================================================
+2025-07-13 11:25:49,553 - INFO - STEP 1: Loading and preprocessing data...
+2025-07-13 11:25:49,554 - INFO - Starting data loading and preprocessing using research paper methodology
+2025-07-13 11:25:49,554 - INFO - Processing cicids-2017/Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv
+2025-07-13 11:25:50,663 - INFO - Processing cicids-2017/Friday-WorkingHours-Morning.pcap_ISCX.csv
+2025-07-13 11:25:51,594 - INFO - Processing cicids-2017/Friday-WorkingHours-Afternoon-PortScan.pcap_ISCX.csv
+2025-07-13 11:25:52,728 - INFO - Processing cicids-2017/Monday-WorkingHours.pcap_ISCX.csv
+2025-07-13 11:25:55,246 - INFO - Processing cicids-2017/Thursday-WorkingHours-Afternoon-Infilteration.pcap_ISCX.csv
+2025-07-13 11:25:56,469 - INFO - Processing cicids-2017/Thursday-WorkingHours-Morning-WebAttacks.pcap_ISCX.csv
+2025-07-13 11:25:57,297 - INFO - Processing cicids-2017/Tuesday-WorkingHours.pcap_ISCX.csv
+2025-07-13 11:25:59,384 - INFO - Processing cicids-2017/Wednesday-workingHours.pcap_ISCX.csv
+2025-07-13 11:26:04,704 - INFO - Initial dataset shape: (2830743, 79)
+2025-07-13 11:26:04,705 - INFO - Total samples processed: 2830743
+2025-07-13 11:26:04,716 - INFO - STEP 2: Applying research paper preprocessing...
+2025-07-13 11:26:04,716 - INFO - Applying research paper preprocessing methodology
+2025-07-13 11:26:04,716 - INFO - Step 1: Handling missing and infinite values
+2025-07-13 11:26:04,834 - INFO - Step 2: Dropping constant columns
+2025-07-13 11:26:05,614 - INFO - Dropped constant column: Bwd PSH Flags
+2025-07-13 11:26:15,962 - INFO - Dropped constant column: Bwd URG Flags
+2025-07-13 11:26:19,623 - INFO - Dropped constant column: Fwd Avg Bytes/Bulk
+2025-07-13 11:26:22,784 - INFO - Dropped constant column: Fwd Avg Packets/Bulk
+2025-07-13 11:26:23,571 - INFO - Dropped constant column: Fwd Avg Bulk Rate
+2025-07-13 11:26:25,929 - INFO - Dropped constant column: Bwd Avg Bytes/Bulk
+2025-07-13 11:26:26,609 - INFO - Dropped constant column: Bwd Avg Packets/Bulk
+2025-07-13 11:26:28,827 - INFO - Dropped constant column: Bwd Avg Bulk Rate
+2025-07-13 11:26:28,828 - INFO - Step 3: Dropping highly correlated features
+2025-07-13 11:26:29,405 - INFO - Dropped correlated column: Total Backward Packets
+2025-07-13 11:26:31,519 - INFO - Dropped correlated column: Total Length of Bwd Packets
+2025-07-13 11:26:31,939 - INFO - Dropped correlated column: Fwd Packet Length Std
+2025-07-13 11:26:33,956 - INFO - Dropped correlated column: Bwd Packet Length Mean
+2025-07-13 11:26:34,413 - INFO - Dropped correlated column: Bwd Packet Length Std
+2025-07-13 11:26:36,512 - INFO - Dropped correlated column: Fwd IAT Total
+2025-07-13 11:26:36,971 - INFO - Dropped correlated column: Fwd IAT Max
+2025-07-13 11:26:38,933 - INFO - Dropped correlated column: Fwd Packets/s
+2025-07-13 11:26:39,310 - INFO - Dropped correlated column: Packet Length Std
+2025-07-13 11:26:41,068 - INFO - Dropped correlated column: SYN Flag Count
+2025-07-13 11:26:41,417 - INFO - Dropped correlated column: CWE Flag Count
+2025-07-13 11:26:42,788 - INFO - Dropped correlated column: ECE Flag Count
+2025-07-13 11:26:43,117 - INFO - Dropped correlated column: Average Packet Size
+2025-07-13 11:26:44,408 - INFO - Dropped correlated column: Avg Fwd Segment Size
+2025-07-13 11:26:44,715 - INFO - Dropped correlated column: Avg Bwd Segment Size
+2025-07-13 11:26:45,854 - INFO - Dropped correlated column: Fwd Header Length.1
+2025-07-13 11:26:46,178 - INFO - Dropped correlated column: Subflow Fwd Packets
+2025-07-13 11:26:47,259 - INFO - Dropped correlated column: Subflow Fwd Bytes
+2025-07-13 11:26:47,574 - INFO - Dropped correlated column: Subflow Bwd Packets
+2025-07-13 11:26:48,520 - INFO - Dropped correlated column: Subflow Bwd Bytes
+2025-07-13 11:26:48,782 - INFO - Dropped correlated column: Idle Mean
+2025-07-13 11:26:49,477 - INFO - Dropped correlated column: Idle Max
+2025-07-13 11:26:49,703 - INFO - Dropped correlated column: Idle Min
+2025-07-13 11:26:49,703 - INFO - Step 4: Applying multiclass labeling
+2025-07-13 11:26:50,753 - INFO - Step 5: Applying data sampling
+2025-07-13 11:26:55,169 - INFO - Final dataset shape after preprocessing: (1124250, 50)
+2025-07-13 11:26:55,169 - INFO - Class distribution:
+2025-07-13 11:26:55,216 - INFO -   BENIGN: 568831
+2025-07-13 11:26:55,231 - INFO -   DDoS: 128027
+2025-07-13 11:26:55,252 - INFO -   DoS: 252661
+2025-07-13 11:26:55,268 - INFO -   PortScan: 158930
+2025-07-13 11:26:55,270 - INFO -   Bot: 1966
+2025-07-13 11:26:55,271 - INFO -   WebAttack: 0
+2025-07-13 11:26:55,284 - INFO -   Patator: 13835
+2025-07-13 11:26:55,654 - INFO - STEP 3: Training Random Forest model...
+2025-07-13 11:26:55,655 - INFO - Starting model training
+2025-07-13 11:26:57,014 - INFO - Scaling features (training data only)
+2025-07-13 11:26:57,670 - INFO - Training Random Forest from scratch
+2025-07-13 11:26:57,731 - INFO - Training Random Forest with 50 trees
+2025-07-13 11:26:57,731 - INFO - Training tree 1/50
+2025-07-13 11:26:58,982 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 11:28:49,752 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 11:30:24,699 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 11:31:35,552 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 11:32:44,816 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 11:34:22,358 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 11:36:00,379 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 11:37:17,197 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 11:38:28,950 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 11:40:04,463 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 11:41:20,694 - INFO - Training tree 11/50
+2025-07-13 11:41:21,457 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 11:43:30,921 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 11:44:49,187 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 11:46:09,513 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 11:47:25,814 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 11:49:44,546 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 11:53:51,065 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 11:57:35,261 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 12:01:58,200 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 12:06:13,474 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 12:09:48,741 - INFO - Training tree 21/50
+2025-07-13 12:09:53,485 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 12:14:08,026 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 12:16:17,374 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 12:19:07,754 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 12:21:29,968 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 12:23:27,629 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 12:26:50,142 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 12:28:59,142 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 12:30:46,943 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 12:32:42,617 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 12:34:54,778 - INFO - Training tree 31/50
+2025-07-13 12:34:57,923 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 12:36:46,152 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 12:39:36,026 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 12:43:05,129 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 12:47:07,230 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 12:50:40,122 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 12:54:18,327 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 12:57:09,628 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 12:59:39,743 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 13:01:53,058 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 13:04:09,111 - INFO - Training tree 41/50
+2025-07-13 13:04:09,998 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 13:06:03,607 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 13:07:18,538 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 13:09:09,948 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 13:10:43,961 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 13:12:26,915 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 13:12:58,361 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 13:15:27,214 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 13:16:35,016 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 13:18:28,728 - INFO - Training decision tree with 899400 samples and 7 features
+2025-07-13 13:19:21,293 - INFO - Random Forest training completed
+2025-07-13 13:19:21,389 - INFO - Training completed in 6745.73 seconds
+2025-07-13 13:19:21,426 - INFO - STEP 4: Evaluating model...
+2025-07-13 13:19:21,427 - INFO - Evaluating model performance
+2025-07-13 13:20:01,552 - INFO - Model Performance:
+2025-07-13 13:20:01,552 - INFO -   Overall Accuracy: 0.9871
+2025-07-13 13:20:01,552 - INFO -   BENIGN:
+2025-07-13 13:20:01,552 - INFO -     Precision: 0.9908
+2025-07-13 13:20:01,552 - INFO -     Recall: 0.9839
+2025-07-13 13:20:01,552 - INFO -     F1 Score: 0.9873
+2025-07-13 13:20:01,552 - INFO -     Support: 113766
+2025-07-13 13:20:01,552 - INFO -   DDoS:
+2025-07-13 13:20:01,552 - INFO -     Precision: 1.0000
+2025-07-13 13:20:01,553 - INFO -     Recall: 0.9977
+2025-07-13 13:20:01,553 - INFO -     F1 Score: 0.9988
+2025-07-13 13:20:01,553 - INFO -     Support: 25606
+2025-07-13 13:20:01,553 - INFO -   DoS:
+2025-07-13 13:20:01,553 - INFO -     Precision: 0.9661
+2025-07-13 13:20:01,553 - INFO -     Recall: 0.9953
+2025-07-13 13:20:01,553 - INFO -     F1 Score: 0.9805
+2025-07-13 13:20:01,553 - INFO -     Support: 50532
+2025-07-13 13:20:01,553 - INFO -   PortScan:
+2025-07-13 13:20:01,553 - INFO -     Precision: 0.9984
+2025-07-13 13:20:01,553 - INFO -     Recall: 0.9989
+2025-07-13 13:20:01,553 - INFO -     F1 Score: 0.9987
+2025-07-13 13:20:01,553 - INFO -     Support: 31786
+2025-07-13 13:20:01,553 - INFO -   Bot:
+2025-07-13 13:20:01,553 - INFO -     Precision: 0.8556
+2025-07-13 13:20:01,553 - INFO -     Recall: 0.6183
+2025-07-13 13:20:01,553 - INFO -     F1 Score: 0.7179
+2025-07-13 13:20:01,553 - INFO -     Support: 393
+2025-07-13 13:20:01,553 - INFO -   WebAttack:
+2025-07-13 13:20:01,554 - INFO -     Precision: 0.0000
+2025-07-13 13:20:01,554 - INFO -     Recall: 0.0000
+2025-07-13 13:20:01,554 - INFO -     F1 Score: 0.0000
+2025-07-13 13:20:01,554 - INFO -     Support: 0
+2025-07-13 13:20:01,554 - INFO -   Patator:
+2025-07-13 13:20:01,554 - INFO -     Precision: 1.0000
+2025-07-13 13:20:01,554 - INFO -     Recall: 0.7879
+2025-07-13 13:20:01,554 - INFO -     F1 Score: 0.8813
+2025-07-13 13:20:01,554 - INFO -     Support: 2767
+2025-07-13 13:20:01,678 - INFO - Confusion Matrix:
+[[111929      1   1744     51     41      0]
+ [    58  25548      0      0      0      0]
+ [   237      0  50295      0      0      0]
+ [    15      0     19  31752      0      0]
+ [   150      0      0      0    243      0]
+ [   584      0      3      0      0   2180]]
+2025-07-13 13:20:01,720 - INFO - Baseline (most frequent): 0.5060
+2025-07-13 13:20:01,720 - INFO - Improvement: 0.4811
+2025-07-13 13:20:01,720 - INFO - STEP 5: Saving results...
+2025-07-13 13:20:01,749 - INFO - Metrics saved to metrics/model_metrics_20250713_132001.csv
+2025-07-13 13:20:01,759 - INFO - Class metrics saved to metrics/class_metrics_20250713_132001.csv
+2025-07-13 13:20:01,759 - INFO - Saving model to models/intrusion_detector_rf_20250713_132001.joblib
+2025-07-13 13:20:03,640 - INFO - Model saved successfully to models/intrusion_detector_rf_20250713_132001.joblib
+2025-07-13 13:20:03,640 - INFO - Training complete!
+2025-07-13 13:20:03,640 - INFO - Results saved with timestamp: 20250713_132001

@@ -1,0 +1,2 @@
+accuracy,timestamp,model,implementation,training_time,model_size,features_used,classes
+0.9870891705581499,20250713_132001,Random Forest (from scratch),Custom implementation,6745.732468,50,49,7
